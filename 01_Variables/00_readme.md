@@ -17,12 +17,18 @@ det ska vara ett tal ska det vara en "*int*". Precis som med exemplet PET-flaska
    textVariabel = "Lars Kagg"
 
 ## Vad används en variabel till
-En variabel används för att spara information i olika datorprogram. Till exempel
-en inloggning på en hemsida. Där skriver man in användarnamn och lösenord. Detta sparas
-i variabler så att hemsida-programmet kan kontrollera så du har skrivit rätt lösenord.
-Användarnamnet sparas också så att hemsidan kommer ihåg vilken användare som är inloggad.
+En variabel används för att spara information i olika datorprogram. Till exempel en inloggning på en hemsida. Där skriver man in användarnamn och lösenord. Detta sparas i variabler så att hemsida-programmet kan kontrollera så du har skrivit rätt lösenord. Användarnamnet sparas också så att hemsidan kommer ihåg vilken användare som är inloggad.
 
 ## Varför behöver man lära sig om variabler 
 
-Nu när vi ska lära oss om programmering så är variabler det som är den första byggstenen för att 
-lära sig om programmering.
+Nu när vi ska lära oss om programmering så är variabler det som är den första 
+byggstenen för att lära sig om programmering. När vi skriver program
+så är mycket information som behöver sparas och det gör man i variabler.
+Med variabler så behöver man också lära sig om datatyper som:
+
+ - integers (int)(heltal)
+ - floats (float)(decimaltal)
+ - strings (string)(text)
+ - bools (bool)(etta eller nolla)
+ - lists (list)(en samling värden eller variabler)
+
