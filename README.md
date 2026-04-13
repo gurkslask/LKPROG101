@@ -18,6 +18,38 @@ olika koncept. Varje mapp ska ha en readme fil som förklarar grunderna kring ko
 I mappen ska också finnas programmeringsexempel som eleven ska kunna köra och testa
 min kod, men också kunna ändra den kod som jag har skapat.
 
+## jupyter
+
+### Installation på chromebook
+Här är en instruktion kring hur du kör jupyter på en chromebook. Det krävs att du har installerat linux på din chromebook. Detta görs via 
+
+    Inställningar -> Om ChromeOs -> Linux-utvecklingsmiljö
+
+När du har installerat linxu ska du nu öppna en terminal. Här ska vi först ladda ner och installera lite program. Kör följande kommando i **terminalen**
+
+    sudo apt update && sudo apt install git jupyter -y
+
+Med det här kommandot installeras programmeren:
+ - git
+ - jupyter
+
+Nu ska vi ladda hem koden som behövs. Kör följande kommandon i terminalen:
+
+    mkdir Projects
+    cd Projects
+    git clone https://gurkslask/LKPROG101
+    cd LKPROG101
+    jupyter notebook
+
+Nu har du laddat ner koden och kör notebooken i din webbläsare. 
+
+**Om du behöver komma igång igen** så behöver du bara köra följande kommandon i terminalen:
+
+    cd Projects/LKPROG101
+    jupyter notebook
+
+
+
 ## Utvecklingsmiljö
 För att kunna köra python så krävs programmeringsspråket [python](https://www.python.org).
 
