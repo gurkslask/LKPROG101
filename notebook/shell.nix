@@ -27,6 +27,6 @@ pkgs.mkShellNoCC {
     uv pip install jupyter jupyturtle
 
     echo "Startar Jupyter..."
-    jupyter notebook
+    jupyter notebook --allow-root
   '';
 }
