@@ -26,7 +26,7 @@ pkgs.mkShellNoCC {
     echo "Ser till att jupyturtle och jupyter är installerade..." | lolcat
     uv pip install jupyter jupyturtle
 
-    echo "Startar Jupyter..."
+    echo "Startar Jupyter..." | lolcat
     jupyter notebook --allow-root
   '';
 }
